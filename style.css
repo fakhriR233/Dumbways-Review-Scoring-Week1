@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+.topNavLeft {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.topNavLeft .nav-img {
+    margin-left: 18px;
+}
+.topNavLeft img {
+    height: 33px;
+}
+
+.topNavLeft a {
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.topNavRight {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 55px;
+}
+
+.topNavRight a {
+    background-color: black;
+    color: rgb(245, 242, 239);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 24px;
+}
+
+.container {
+    display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    width: 85%;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px 0;
+}
+
+.kiri {
+    flex: 60%;
+    align-items: flex-start;
+}
+
+.kanan {
+    flex: 40%;
+    align-items: flex-end;
+}
+.hut {
+    font-family: sans-serif; 
+    text-align: justify;
+    border: 1px;
+    width: 550px;
+    padding: 80px 0 0 10px;
+}
+
+.contact-cv {
+    display: flex;
+    text-align: center;
+    margin: 32px 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.kiri-contact {
+    display: inline-block;
+    padding: 10px;
+    align-items: center;    
+}
+.kiri-contact a {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background-color: black; color: aliceblue;
+    width: 50px;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+
+.kiri-cv {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+.kiri-icon{
+    display: flex;
+    padding: 10px 10px 10px 5px;
+    max-width: 400x;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.kanan-img {
+    font-family:Arial;
+    border: 1px ;
+    margin:auto;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 5px 15px 0;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
